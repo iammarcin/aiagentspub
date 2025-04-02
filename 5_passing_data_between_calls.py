@@ -3,6 +3,10 @@ import asyncio
 import uuid
 from agents import Agent, Runner, trace, function_tool
 
+# IDEA HERE IS TO show passing data between calls.
+# Result of one call is used as input for the next call.
+# so like chat history
+
 # Define a structured output format
 class CalendarEvent(BaseModel):
     name: str

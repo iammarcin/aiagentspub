@@ -3,7 +3,9 @@ from typing import List
 import asyncio
 from agents import Agent, Runner, function_tool, RunContextWrapper
 
-# Define our UserContext with some dummy data and functionality
+# IDEA HERE IS TO show dynamic instructions based on the context
+# here context of course is dummy data - but we can get it from the database etc
+
 @dataclass
 class UserContext:
     name: str

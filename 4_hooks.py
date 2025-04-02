@@ -4,6 +4,10 @@ from agents import Agent, Runner, AgentHooks, RunContextWrapper, function_tool, 
 
 #enable_verbose_stdout_logging()
 
+# IDEA HERE IS TO show hooks
+# so mainly there are 5 built in hooks - and we can trigger all kind of custom events depending on the process state
+# BTW verbose logging is also useful.
+
 @dataclass
 class UserContext:
     name: str
