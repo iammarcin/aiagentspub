@@ -88,7 +88,7 @@ async def crawl_url(url: str) -> str:
                 
                 if DEBUG:
                     print(f"Crawled content length: {len(content)}")
-                    print(f"Content preview: {content[:2500]}...")
+                    print(f"Content preview: {content[:500]}...")
                 
                 return content
             else:
@@ -183,7 +183,7 @@ async def run(fighter_name: str):
         """,
         tools=[WebSearchTool(), validate_ufc_url],
         output_type=FighterURLs,
-        model="gpt-4o-mini"  # Use more capable model for search
+        model="gpt-4o-mini"
     )
 
     # 2. UFC Fetch and Extract Agent
