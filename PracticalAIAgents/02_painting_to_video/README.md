@@ -61,7 +61,7 @@ Optionally, customize model and content settings in `config.py` and ensure any r
 Run the demo by specifying an artwork URL. Use `--video` to include video generation.
 
 ```bash
-python main.py --url 'https://www.metmuseum.org/art/collection/search/437127' --video
+python main.py --url 'https://artgallerytheone.com/products/shadow-of-liberty-copy' --video
 ```
 
 ### Programmatic Invocation
@@ -71,7 +71,7 @@ import asyncio
 from workflow import main
 
 asyncio.run(main(
-    artwork_url='https://www.metmuseum.org/art/collection/search/437127',
+    artwork_url='https://artgallerytheone.com/products/shadow-of-liberty-copy',
     generate_video=True
 ))
 ```
