@@ -1,0 +1,13 @@
+{
+  "title": "Desert sunset abstract",
+  "artist": null,
+  "medium": null,
+  "description": "The artwork represents an abstract interpretation of a desert sunset, likely emphasizing vivid colors and natural shapes. This piece is priced at \u20ac1.700,00 and comes with a Certificate of Authenticity. Pickup is available at Hotel The One Pal\u00e1cio da Anunciada, usually ready in 24 hours, with delivery options available worldwide via DHL.",
+  "image_urls": {
+    "main_image_url": "//artgallerytheone.com/cdn/shop/files/Desert_sunset_abstract_8a35bb66-cda8-4f76-b015-9189649d0500_1024x1024@2x.jpg?v=1746192966",
+    "source_url": "https://artgallerytheone.com/products/desert-sunset-abstract"
+  },
+  "generated_prompt": "Create a vivid, abstract landscape capturing the essence of a desert sunset. Envision a fiery sky ablaze with deep crimson, burnt orange, and hints of gold, blending seamlessly into a warm, glowing horizon. The setting sun appears as a luminous, textured orb, partially dipped behind rolling dunes that ripple with dynamic, swirling patterns in shades of burnt sienna, terracotta, and ochre. Incorporate fluid, marbled textures to evoke the natural undulations and shifting sands of a desert terrain, emphasizing movement and energy. The atmosphere should evoke awe and tranquility, with a rich, warm color palette that celebrates the vibrant transition from day to night. Use bold brushstrokes and layered textures to create depth, capturing the raw beauty and abstract complexity of a desert sunset, inviting viewers into a mesmerizing, dreamlike landscape.",
+  "generated_image_path": "/home/nichu/dev/ai_agents/openai/PracticalAIAgents/02/utils/outputs/images/image_20250504_111450_76979c59.png",
+  "generated_video_path": "/home/nichu/dev/ai_agents/openai/PracticalAIAgents/02/utils/outputs/videos/video_20250504_111524_d1e5056a.mp4"
+}
